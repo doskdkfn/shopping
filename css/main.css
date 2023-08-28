@@ -1,0 +1,731 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+a:link, a:visited {color: inherit; text-decoration: none;}
+
+header {
+    /* width: 1920px; */
+    position: relative;
+    margin-top: 20px;
+}
+
+/* body {
+    width: 1920px;
+    overflow-x: hidden;
+} */
+
+#tnb {
+    display: flex;
+    position: absolute;
+    right: 120px;
+}
+
+.user {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#tnb > li {
+    display: block;
+    font-size: 13px;
+    padding: 10px 10px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding: 30px 75px 0 0;
+    padding-bottom: 50px;
+}
+
+#logo > a > h2 {
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 25px;
+    right: 44%;
+}
+
+#gnb {
+    display: flex;
+    justify-content: center;
+    background: rgba(37, 37, 37, 0.952);
+    height: 50px;
+}
+
+#gnb > li {
+    text-align: center;
+    transition-duration: .4s;
+    z-index: 4;
+}
+
+.qna {
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+}
+
+.msg {
+    position: absolute;
+    top: -33px;
+    left: 10px;
+}
+
+.cart {
+    color: red;
+    font-size: 20px;
+    position: relative;
+}
+
+.shopping {
+    position: absolute;
+    top: -33px;
+    left: 10px;
+}
+
+#gnb > li > a {
+    display: block;
+    color: #fff;
+    padding: 17px 45px;
+    transition-duration: .4s;
+}
+
+#gnb > li:hover > a {
+    background: #aaa;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu a {
+    display: block;
+    line-height: 50px;
+    background: rgb(112, 108, 108);
+    color: #fff;
+    text-align: center;
+    opacity: .70;
+}
+
+.submenu a:hover {
+    background: #ccc;
+    color: #000;
+}
+
+/*=======slide style =========*/
+#slide {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background: #000;
+}
+
+#slide > a {
+    position: absolute;
+    display: none;
+}
+
+#slide > a:first-child {
+    display: block;
+}
+
+#slide2 {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    background: #000;
+}
+
+#slide2 > a {
+    position: absolute;
+    display: none;
+}
+
+#slide2 > a:first-child {
+    display: block;
+}
+
+
+/*========= section style =========*/
+
+section {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    background: rgb(223, 60, 141);
+    color: #fff;
+    width: 200px;
+    padding: 15px 15px;
+    position: absolute;
+    right: 1160px;
+    margin-top: 5px;
+    border-radius: 25px;
+}
+
+#title > h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mslide {
+    position: relative;
+}
+
+#mslide > a {
+    position: absolute;
+    top: 200px;
+}
+
+#mslide > a:nth-child(1) {
+    display: block;
+    overflow: hidden;
+}
+
+#mslide > h2 {
+    position: absolute;
+    background: rgb(18, 90, 199);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    width: 48%;
+    text-align: center;
+    top: 115px;
+    left: 0px;
+}
+
+#mslide2 {
+    position: relative;
+}
+
+#mslide2 > a {
+    position: absolute;
+    top: 200px;
+    left: 24%;
+}
+
+#mslide2 > a:nth-child(1) {
+    display: block;
+    overflow: hidden;
+}
+
+#men {
+    margin-top: 50px;
+}
+
+#wslide > h2 {
+    position: absolute;
+    background: rgb(165, 12, 12);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    width: 48%;
+    text-align: center;
+    left: 52%;
+    top: 115px;
+}
+
+#wslide {
+    position: relative;
+}
+
+#wslide > a {
+    position: absolute;
+    top: 200px;
+    left: 52%;
+}
+
+#wslide2 {
+    position: relative;
+}
+
+#wslide2 > a {
+    position: absolute;
+    top: 200px;
+    left: 76%;
+}
+/************************** men best-item ****************************/
+#best {
+    position: relative;
+    top: 720px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+#best > h2 {
+    background: rgb(223, 60, 141);
+    color: #fff;
+    width: 200px;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 43%;
+}
+
+#mtop, #mtop2 {
+    display: flex;
+}
+
+#mtop > ul, #mtop2 > ul {
+    display: block;
+    padding: 0 197px 0 0;
+}
+
+#mtop {
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+#top-item {
+    width: 250px;
+}
+
+#top-item img {
+    width: 250px;
+    height: 300px;
+}
+
+.name {
+    list-style: none;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 1.7;
+}
+
+.name > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mtop > ul:hover {
+    transform: scale(1.1);
+}
+
+#mtop2 > ul:hover {
+    transform: scale(1.1);
+}
+
+/************************** women best-item ****************************/
+
+#wtop, #wtop2 {
+    display: flex;
+}
+
+#wtop > ul, #wtop2 > ul {
+    display: block;
+    padding: 0 197px 0 0;
+}
+
+#wtop {
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+#wtop > h2 {
+    background: rgb(223, 60, 141);
+    color: #fff;
+    width: 200px;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 43%;
+}
+
+#top-item {
+    width: 250px;
+}
+
+#top-item img {
+    width: 250px;
+    height: 300px;
+}
+
+.name {
+    list-style: none;
+    text-align: center;
+    padding-top: 8px;
+    line-height: 1.7;
+}
+
+.name > p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#wtop > ul:hover {
+    transform: scale(1.1);
+}
+
+#wtop2 > ul:hover {
+    transform: scale(1.1);
+}
+
+/************************** banner style ****************************/
+
+#banner {
+    position: absolute;
+    top: 350vh;
+    right: 135px;
+}
+
+#banner > img {
+    width: 1600px;
+}
+
+/************************** guide style ****************************/
+
+.line {
+    position: relative;
+    bottom: -1170px;
+    opacity: 0.20;
+}
+
+#guide {
+    position: absolute;
+    top: 400vh;
+    left: 170px;
+    display: flex;
+    list-style: none;
+    /* border-top: 1px solid #ccc; */
+}
+/************************** call style ****************************/
+.call {
+    line-height: 1.4;
+    margin-right: 70px;
+}
+
+.call > h2 {
+    color: #2f2f2f;
+    font-weight: bold;
+}
+
+.call > p {
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.call > li {
+    color: #9d9d9d;
+    font-size: 13px;
+    line-height: 2.1;
+}
+
+/************************** bank-guide style ****************************/
+
+.bank-guide {
+    line-height: 1.4;
+    margin-right: 85px;
+}
+
+.bank-guide > h2 {
+    color: #000;
+    font-weight: bolder;
+}
+
+.bank-guide > p {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.bank {
+    display: flex;
+}
+
+.bank > li {
+    font-size: 14px;
+    padding: 15px 10px 5px 0;
+}
+
+.bank-name {
+    color: #686868;
+}
+
+.bank-num {
+    color: #999999;
+}
+
+.bank-btn {
+    display: flex;
+    text-align: center;
+    font-size: 13px;
+}
+
+.bank-btn > a {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.mu {
+    background: #2c2c2c;
+}
+
+.mu > h2 {
+    color: #fff;
+}
+
+/***************** refund-guide *******************/
+
+.refund-guide {
+    margin-right: 60px;
+}
+
+.refund-guide > h2{
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 23px;
+}
+
+.delivery > li {
+    line-height: 2.5;
+    font-size: 13px;
+    color: #686868;
+}
+
+.refund-btn {
+    display: flex;
+    background: #fff;
+    margin-top: 6px;
+}
+
+.refund-btn > a {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+/***************** shopping-guide *******************/
+
+.shop-guide {
+    display: flex;
+}
+
+.shopping-guide > h2 {
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 23px;
+}
+
+.shop-guide > li {
+    display: block;
+    padding: 20px;
+    border: 1px solid #eee;
+    height: 70px;
+    cursor: pointer;
+}
+
+.shop-guide > li:hover {
+    transform: scale(1.1);
+}
+
+.shopping-guide > li > p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icond {
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fa-phone-flip {
+    color: darkred;
+}
+
+.fa-truck {
+    color: darkgreen;
+}
+
+.fa-message {
+    color: #aaa;
+}
+
+
+/***************** signup - style *******************/
+
+#login-wrap {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background: #555273;
+    color: #fff;
+}
+
+/* #login {
+    width: 600px;
+    margin: 0 auto;
+    
+} */
+
+#login > h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-wrap {
+    box-sizing: border-box;
+    padding: 20px 0 0 135px;
+}
+
+#userId, #userPw, #userPw2 {
+    height: 40px;
+    width: 70%;
+    margin: 5px;
+}
+
+#gubun {
+    padding: 5px;
+    width: 600px;
+}
+
+#gubun a {
+    padding: 0 80px 0 0;
+}
+
+input[type=submit] {
+    height: 50px;
+    width: 330px;
+    margin-top: 30px;
+    background: #2f2f2f;
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#userId:focus #userPw:focus {
+    border: 2px solid  #d60c00;
+    outline: none; /*아웃라인: 없음 */
+} 
+
+.form-wrap > h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0 0 80px;
+    padding-top: 50px;
+}
+
+#sns {
+    display: flex;
+    padding-top: 20px;
+}
+
+#sns > a {
+    display: block;
+    padding: 30px 5px 0 5px;
+    text-align: center;
+    transition-duration: .4s;
+}
+
+#sns > a:hover {
+    transform: scale(1.1);
+}
+
+#sns img {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========= footer style =========*/
+footer {
+    position: relative;
+    bottom: -150vh;
+    background: rgba(37, 37, 37, 0.952);
+    color: #fff;
+    line-height: 1.8;
+    height: 250px;
+    
+}
+
+footer img {
+    margin-top: 20px;
+}
+
+#copy {
+    margin-top: 15px;
+}
+
+.fr {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 35px 10px;
+    margin-top: 40px;
+}
+
+.fm {
+    font-size: 13px;
+}
