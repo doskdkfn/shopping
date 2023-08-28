@@ -8,10 +8,11 @@ header {
     margin-top: 20px;
 }
 
-/* body {
-    width: 1920px;
+body {
+    width: 100%;
+    height: 100%;
     overflow-x: hidden;
-} */
+}
 
 #tnb {
     display: flex;
@@ -118,6 +119,8 @@ header {
     height: 400px;
     overflow: hidden;
     background: #000;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 #slide > a {
@@ -153,6 +156,14 @@ section {
     margin: 0 auto;
 }
 
+#title-box {
+    width: 1600px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 #title {
     display: flex;
     justify-content: center;
@@ -160,8 +171,8 @@ section {
     color: #fff;
     width: 200px;
     padding: 15px 15px;
-    position: absolute;
-    right: 1160px;
+    /* position: absolute;
+    right: 1160px; */
     margin-top: 5px;
     border-radius: 25px;
 }
@@ -215,9 +226,9 @@ section {
     overflow: hidden;
 }
 
-#men {
+/* #men {
     margin-top: 50px;
-}
+} */
 
 #wslide > h2 {
     position: absolute;
@@ -377,30 +388,40 @@ section {
 
 /************************** banner style ****************************/
 
-#banner {
-    position: absolute;
-    top: 350vh;
-    right: 135px;
+#banner-box {
+    width: 1600px;
+    position: relative;
 }
 
-#banner > img {
+#banner {
+    position: absolute;
+    bottom: -1590px;
+    /* right: 465px; */
     width: 1600px;
+    margin: 0 auto;
+}
+
+#banner img {
+    width: 1600px;
+    
 }
 
 /************************** guide style ****************************/
 
 .line {
     position: relative;
-    bottom: -1170px;
+    bottom: -1700px;
     opacity: 0.20;
 }
 
 #guide {
-    position: absolute;
-    top: 400vh;
-    left: 170px;
+    position: relative;
+    bottom: -1800px;
+    /* left: 170px; */
     display: flex;
     list-style: none;
+    /* border-top: 1px solid #ccc; */
+    justify-content: center;
     /* border-top: 1px solid #ccc; */
 }
 /************************** call style ****************************/
